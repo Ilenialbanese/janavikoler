@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f6f5ef">
+  <meta name="theme-color" content="#ffffff">
   <meta name="description" data-description-it="La Dott.ssa Jana Vikoler è psicologa a Bolzano. Colloqui per adulti e coppie in italiano, tedesco e inglese." data-description-de="Dr. Jana Vikoler ist Psychologin in Bozen. Gespräche für Erwachsene und Paare auf Deutsch, Italienisch und Englisch." data-description-en="Dr. Jana Vikoler is a psychologist in Bolzano, offering sessions for adults and couples in English, Italian and German.">
   <title data-it="Dr. Jana Vikoler — Psicologa a Bolzano" data-de="Dr. Jana Vikoler — Psychologin in Bozen" data-en="Dr. Jana Vikoler — Psychologist in Bolzano">Dr. Jana Vikoler — Psicologa a Bolzano</title>
   <link rel="stylesheet" href="style.css">
@@ -31,7 +31,7 @@
           <button type="button" data-lang="de" aria-pressed="false" aria-label="Deutsch">DE</button>
           <button type="button" data-lang="en" aria-pressed="false" aria-label="English">EN</button>
         </div>
-        <button class="menu-toggle" type="button" aria-label="Apri la navigazione" aria-controls="main-nav" aria-expanded="false" data-open-it="Apri la navigazione" data-open-de="Navigation öffnen" data-open-en="Open navigation" data-close-it="Chiudi la navigazione" data-close-de="Navigation schließen" data-close-en="Close navigation">☰</button>
+        <button class="menu-toggle" type="button" aria-label="Apri la navigazione" aria-controls="main-nav" aria-expanded="false" data-open-it="Apri la navigazione" data-open-de="Navigation öffnen" data-open-en="Open navigation" data-close-it="Chiudi la navigazione" data-close-de="Navigation schließen" data-close-en="Close navigation"><span class="menu-icon" aria-hidden="true"></span></button>
       </div>
     </div>
   </header>
@@ -40,69 +40,76 @@
     <!-- Home page: a short introduction and links to the detail pages. -->
     <section class="container hero">
       <div class="hero-copy">
-        <p class="eyebrow"><span data-it="Psicologia · Bolzano, Alto Adige" data-de="Psychologie · Bozen, Südtirol" data-en="Psychology · Bolzano, South Tyrol">Psicologia · Bolzano, Alto Adige</span></p>
-        <h1><span data-it="Comprendere sé stessi." data-de="Sich selbst besser verstehen." data-en="Understand yourself.">Comprendere sé stessi.</span><br><em><span data-it="Trovare nuove possibilità." data-de="Neue Möglichkeiten entdecken." data-en="Discover new possibilities.">Trovare nuove possibilità.</span></em></h1>
-        <p data-it="Uno spazio per dare senso a ciò che stai vivendo, riconoscere gli schemi ricorrenti e scoprire nuove strade, con rispetto e senza giudizio." data-de="Ein Raum, um dem Erlebten auf den Grund zu gehen, wiederkehrende Muster zu erkennen und neue Wege zu entdecken – respektvoll und ohne Bewertung." data-en="A space to make sense of what you are experiencing, notice recurring patterns and explore new ways forward—with respect and without judgement.">Uno spazio per dare senso a ciò che stai vivendo, riconoscere gli schemi ricorrenti e scoprire nuove strade, con rispetto e senza giudizio.</p>
-        <div class="button-row">
-          <a class="button" href="contact.html"><span data-it="Parliamone" data-de="Ins Gespräch kommen" data-en="Let’s talk">Parliamone</span><span class="arrow" aria-hidden="true">↗</span></a>
-          <a class="button button-secondary" href="approach.html"><span data-it="Il mio approccio" data-de="Mein Ansatz" data-en="My approach">Il mio approccio</span></a>
-        </div>
-        <div class="language-note"><span class="dots" aria-hidden="true">● ● ●</span><span data-it="Colloqui in italiano, tedesco e inglese" data-de="Gespräche auf Deutsch, Italienisch und Englisch" data-en="Sessions in English, Italian and German">Colloqui in italiano, tedesco e inglese</span></div>
+        <h1><span data-it="Comprendere" data-de="Sich selbst" data-en="Understand">Comprendere</span><br><span data-it="sé stessi." data-de="besser verstehen." data-en="yourself.">sé stessi.</span><br><span class="hero-subtitle" data-it="Trovare nuove possibilità." data-de="Neue Möglichkeiten entdecken." data-en="Discover new possibilities.">Trovare nuove possibilità.</span></h1>
       </div>
-      <div class="hero-visual">
-        <img class="portrait" src="potrait_jana.PNG" alt="La Dott.ssa Jana Vikoler" data-alt-it="La Dott.ssa Jana Vikoler" data-alt-de="Dr. Jana Vikoler" data-alt-en="Dr. Jana Vikoler">
-        <div class="portrait-tag"><span aria-hidden="true">✳</span><span data-it="Uno spazio per te" data-de="Zeit für Sie" data-en="A space for you">Uno spazio per te</span></div>
+      <div class="hero-visual portrait-frame">
+        <!-- Replace the image source when a new portrait is ready; keep this class for the crop and frame styles. -->
+        <img class="portrait-image" src="potrait_jana.PNG" alt="La Dott.ssa Jana Vikoler" data-alt-it="La Dott.ssa Jana Vikoler" data-alt-de="Dr. Jana Vikoler" data-alt-en="Dr. Jana Vikoler">
+        <div class="portrait-tag"><span data-it="Uno spazio per te" data-de="Zeit für Sie" data-en="A space for you">Uno spazio per te</span></div>
       </div>
     </section>
 
-    <div class="container"><div class="intro-band"><p data-it="Un percorso psicologico può aiutarti a comprendere meglio ciò che stai vivendo e a trovare possibilità di cambiamento adatte alla tua storia." data-de="Psychologische Begleitung kann dabei helfen, das eigene Erleben besser zu verstehen und passende Möglichkeiten für Veränderung zu finden." data-en="Psychological support can help you understand what you are going through and find ways to move forward that feel right for you.">Un percorso psicologico può aiutarti a comprendere meglio ciò che stai vivendo e a trovare possibilità di cambiamento adatte alla tua storia.</p><span class="place" data-it="In studio · Online" data-de="Vor Ort · Online" data-en="In person · Online">In studio · Online</span></div></div>
+    <section class="container intro-section">
+      <div class="intro-band">
+        <blockquote><span data-it="Un percorso psicologico può aiutarti a comprendere meglio ciò" data-de="Psychologische Begleitung kann dabei helfen, das eigene Erleben" data-en="Psychological support can help you understand what">Un percorso psicologico può aiutarti a comprendere meglio ciò</span><br><span data-it="che stai vivendo e a trovare possibilità di cambiamento adatte alla tua storia." data-de="besser zu verstehen und passende Möglichkeiten für Veränderung zu finden." data-en="you are going through and find ways to move forward that feel right for you">che stai vivendo e a trovare possibilità di cambiamento adatte alla tua storia</span></blockquote>
+      </div>
+    </section>
 
     <section class="container section">
       <div class="section-heading">
         <p class="eyebrow"><span data-it="Come posso aiutarti" data-de="Wobei ich Sie begleite" data-en="How I can support you">Come posso aiutarti</span></p>
         <h2 data-it="Un luogo per fare spazio a ciò che conta." data-de="Raum für das, was Sie bewegt." data-en="Space for what matters to you.">Un luogo per fare spazio a ciò che conta.</h2>
-        <p data-it="Mi rivolgo ad adulti e coppie che desiderano comprendere meglio le proprie difficoltà e affrontarle con maggiore consapevolezza." data-de="Ich begleite Erwachsene und Paare, die ihre Herausforderungen besser verstehen und bewusster damit umgehen möchten." data-en="I work with adults and couples who want to better understand their difficulties and approach them with greater awareness.">Mi rivolgo ad adulti e coppie che desiderano comprendere meglio le proprie difficoltà e affrontarle con maggiore consapevolezza.</p>
       </div>
       <div class="card-grid">
-        <article class="info-card"><span class="card-index">01</span><h3 data-it="Ansia, stress e umore depresso" data-de="Ängste, Stress und depressive Symptome" data-en="Anxiety, stress and low mood">Ansia, stress e umore depresso</h3><p data-it="Comprendere preoccupazioni, tensione e stanchezza emotiva, e sviluppare strategie concrete per la vita quotidiana." data-de="Sorgen, Anspannung und emotionale Erschöpfung besser verstehen und alltagstaugliche Strategien entwickeln." data-en="Make sense of worry, tension and emotional exhaustion, and develop practical strategies for everyday life.">Comprendere preoccupazioni, tensione e stanchezza emotiva, e sviluppare strategie concrete per la vita quotidiana.</p></article>
-        <article class="info-card"><span class="card-index">02</span><h3 data-it="Autostima e difficoltà emotive" data-de="Selbstwert und emotionale Herausforderungen" data-en="Self-esteem and emotional challenges">Autostima e difficoltà emotive</h3><p data-it="Esplorare autocritica, insicurezza, confini personali e schemi ricorrenti con curiosità e gentilezza." data-de="Selbstkritik, Unsicherheit, persönliche Grenzen und wiederkehrende Muster mit Neugier betrachten." data-en="Explore self-criticism, insecurity, personal boundaries and recurring patterns with curiosity and care.">Esplorare autocritica, insicurezza, confini personali e schemi ricorrenti con curiosità e gentilezza.</p></article>
-        <article class="info-card"><span class="card-index">03</span><h3 data-it="Consulenza di coppia" data-de="Paarberatung" data-en="Couples counselling">Consulenza di coppia</h3><p data-it="Uno spazio per capire meglio le dinamiche della relazione e trovare modi più costruttivi di comunicare." data-de="Die Dynamik Ihrer Beziehung besser verstehen und konstruktivere Wege der Kommunikation finden." data-en="Understand relationship dynamics and find more constructive ways to communicate.">Uno spazio per capire meglio le dinamiche della relazione e trovare modi più costruttivi di comunicare.</p></article>
-        <article class="info-card"><span class="card-index">04</span><h3 data-it="Relazioni e benessere sessuale" data-de="Beziehungen und sexuelles Wohlbefinden" data-en="Relationships and sexual wellbeing">Relazioni e benessere sessuale</h3><p data-it="Parlare di intimità, sessualità e relazioni significative con rispetto per la tua esperienza." data-de="Über Intimität, Sexualität und Beziehungen sprechen – mit Respekt für Ihre persönliche Erfahrung." data-en="Talk about intimacy, sexuality and meaningful relationships with respect for your experience.">Parlare di intimità, sessualità e relazioni significative con rispetto per la tua esperienza.</p></article>
+        <article class="info-card area-teaser"><span class="card-index">01</span><h3><span data-it="Ansia, stress e" data-de="Ängste, Stress und" data-en="Anxiety, stress and">Ansia, stress e</span><br><span data-it="umore depresso" data-de="depressive Symptome" data-en="low mood">umore depresso</span></h3></article>
+        <article class="info-card area-teaser"><span class="card-index">02</span><h3><span data-it="Autostima e" data-de="Selbstwert und" data-en="Self-esteem and">Autostima e</span><br><span data-it="difficoltà emotive" data-de="emotionale Herausforderungen" data-en="emotional challenges">difficoltà emotive</span></h3></article>
+        <article class="info-card area-teaser"><span class="card-index">03</span><h3 data-it="Consulenza di coppia" data-de="Paarberatung" data-en="Couples counselling">Consulenza di coppia</h3></article>
+        <article class="info-card area-teaser"><span class="card-index">04</span><h3 data-it="Relazioni e benessere sessuale" data-de="Beziehungen und sexuelles Wohlbefinden" data-en="Relationships and sexual wellbeing">Relazioni e benessere sessuale</h3></article>
       </div>
-      <p class="section-link"><a class="text-link" href="areas.html"><span data-it="Scopri tutte le aree" data-de="Alle Schwerpunkte ansehen" data-en="Explore all areas">Scopri tutte le aree</span><span aria-hidden="true">→</span></a></p>
+      <p class="section-link"><a class="text-link" href="areas.html"><span data-it="Maggiori informazioni" data-de="Weitere Informationen" data-en="More information">Maggiori informazioni</span><span class="text-arrow" aria-hidden="true"></span></a></p>
     </section>
 
     <section class="container section home-approach">
-      <div class="approach-panel">
-        <div class="approach-copy">
-          <p class="eyebrow"><span data-it="Il mio approccio" data-de="Mein Ansatz" data-en="My approach">Il mio approccio</span></p>
-          <h2 data-it="Comprendere gli schemi. Favorire il cambiamento." data-de="Muster verstehen. Veränderung ermöglichen." data-en="Understand patterns. Make room for change.">Comprendere gli schemi. Favorire il cambiamento.</h2>
-          <p data-it="Il mio lavoro è collaborativo, basato sulle evidenze scientifiche e orientato alla terapia cognitivo-comportamentale (TCC). Il percorso si costruisce insieme, a partire dalle tue esperienze e dai tuoi obiettivi." data-de="Meine Arbeit ist kollaborativ, wissenschaftlich fundiert und an der kognitiven Verhaltenstherapie (KVT) orientiert. Der Prozess entwickelt sich gemeinsam und passend zu Ihren Anliegen." data-en="My work is collaborative, evidence-informed and guided by cognitive behavioural therapy (CBT). We shape the process together around your experiences and goals.">Il mio lavoro è collaborativo, basato sulle evidenze scientifiche e orientato alla terapia cognitivo-comportamentale (TCC). Il percorso si costruisce insieme, a partire dalle tue esperienze e dai tuoi obiettivi.</p>
-          <a class="text-link" href="approach.html"><span data-it="Leggi di più" data-de="Mehr erfahren" data-en="Read more">Leggi di più</span><span aria-hidden="true">→</span></a>
-        </div>
-        <div class="approach-aside"><blockquote data-it="Non servono risposte preconfezionate. Possiamo trovare possibilità che abbiano senso per te." data-de="Es gibt keine fertigen Antworten. Gemeinsam können wir Wege finden, die zu Ihnen passen." data-en="There are no ready-made answers. Together, we can find possibilities that make sense for you.">Non servono risposte preconfezionate. Possiamo trovare possibilità che abbiano senso per te.</blockquote><p data-it="Uno spazio di ascolto, riflessione e collaborazione." data-de="Ein Raum für Zuhören, Nachdenken und Zusammenarbeit." data-en="A space for listening, reflection and collaboration.">Uno spazio di ascolto, riflessione e collaborazione.</p></div>
+      <p class="eyebrow home-approach-label"><span data-it="Il mio approccio" data-de="Mein Ansatz" data-en="My approach">Il mio approccio</span></p>
+      <div class="approach-panel home-approach-panel">
+        <p class="home-approach-statement" data-it="Uno spazio di ascolto, riflessione e collaborazione." data-de="Ein Raum für Zuhören, Nachdenken und Zusammenarbeit." data-en="A space for listening, reflection and collaboration.">Uno spazio di ascolto, riflessione e collaborazione.</p>
+        <div class="approach-aside"><blockquote data-it="Non servono risposte preconfezionate. Possiamo trovare possibilità che abbiano senso per te." data-de="Es gibt keine fertigen Antworten. Gemeinsam können wir Wege finden, die zu Ihnen passen." data-en="There are no ready-made answers. Together, we can find possibilities that make sense for you.">Non servono risposte preconfezionate. Possiamo trovare possibilità che abbiano senso per te.</blockquote></div>
       </div>
+      <p class="section-link"><a class="text-link" href="approach.html"><span data-it="Leggi di più" data-de="Mehr erfahren" data-en="Read more">Leggi di più</span><span class="text-arrow" aria-hidden="true"></span></a></p>
     </section>
 
-    <section class="container section about-layout">
-      <div class="about-note"><span class="quote-mark" aria-hidden="true">“</span><p data-it="La curiosità e il rispetto aprono spazio a nuovi modi di guardare a sé stessi." data-de="Neugier und Respekt schaffen Raum für neue Perspektiven auf sich selbst." data-en="Curiosity and respect create room for new ways of understanding yourself.">La curiosità e il rispetto aprono spazio a nuovi modi di guardare a sé stessi.</p></div>
-      <div>
-        <p class="eyebrow"><span data-it="Chi sono" data-de="Über mich" data-en="About me">Chi sono</span></p>
-        <h2 data-it="Piacere, sono Jana." data-de="Schön, Sie kennenzulernen." data-en="It’s lovely to meet you.">Piacere, sono Jana.</h2>
-        <p data-it="Sono la Dott.ssa Jana Vikoler, psicologa con sede a Bolzano, in Alto Adige. Ho studiato psicologia nei Paesi Bassi e completato una formazione post-laurea a Roma." data-de="Ich bin Dr. Jana Vikoler, Psychologin mit Sitz in Bozen, Südtirol. Ich habe Psychologie in den Niederlanden studiert und eine weiterführende Ausbildung in Rom absolviert." data-en="I’m Dr. Jana Vikoler, a psychologist based in Bolzano, South Tyrol. I studied psychology in the Netherlands and completed postgraduate training in Rome.">Sono la Dott.ssa Jana Vikoler, psicologa con sede a Bolzano, in Alto Adige. Ho studiato psicologia nei Paesi Bassi e completato una formazione post-laurea a Roma.</p>
-        <a class="text-link" href="about.html"><span data-it="Scopri il mio percorso" data-de="Mehr über mich" data-en="More about me">Scopri il mio percorso</span><span aria-hidden="true">→</span></a>
+    <section class="container section about-layout home-about-layout">
+      <div class="home-about-copy">
+        <h2 data-it="Dott.ssa Jana Vikoler" data-de="Dr. Jana Vikoler" data-en="Dr. Jana Vikoler">Dott.ssa Jana Vikoler</h2>
+        <a class="text-link" href="about.html"><span data-it="Scopri il mio percorso" data-de="Mehr über mich" data-en="More about me">Scopri il mio percorso</span><span class="text-arrow" aria-hidden="true"></span></a>
       </div>
+      <div class="about-note"><p data-it="La curiosità e il rispetto aprono spazio a nuovi modi di guardare a sé stessi." data-de="Neugier und Respekt schaffen Raum für neue Perspektiven auf sich selbst." data-en="Curiosity and respect create room for new ways of understanding yourself.">La curiosità e il rispetto aprono spazio a nuovi modi di guardare a sé stessi.</p></div>
     </section>
 
     <section class="container section">
+      <p class="eyebrow"><span data-it="Un primo passo" data-de="Ein erster Schritt" data-en="A first step">Un primo passo</span></p>
       <div class="contact-panel">
-        <div class="contact-copy"><p class="eyebrow"><span data-it="Un primo passo" data-de="Ein erster Schritt" data-en="A first step">Un primo passo</span></p><h2 data-it="Possiamo iniziare da una domanda." data-de="Wir können mit einer Frage beginnen." data-en="We can start with a question.">Possiamo iniziare da una domanda.</h2><p data-it="Se vuoi capire se un percorso psicologico o una consulenza di coppia può fare al caso tuo, sarà un piacere parlarne." data-de="Wenn Sie klären möchten, ob psychologische Begleitung oder Paarberatung für Sie passen könnte, können wir gerne darüber sprechen." data-en="If you would like to explore whether psychological support or couples counselling might be right for you, we can talk it through.">Se vuoi capire se un percorso psicologico o una consulenza di coppia può fare al caso tuo, sarà un piacere parlarne.</p></div>
-        <a class="button" href="contact.html"><span data-it="Contatti" data-de="Kontakt" data-en="Contact">Contatti</span><span class="arrow" aria-hidden="true">↗</span></a>
+        <div class="contact-copy"><h2 data-it="Possiamo iniziare da una domanda." data-de="Wir können mit einer Frage beginnen." data-en="We can start with a question.">Possiamo iniziare da una domanda.</h2><p data-it="Se vuoi capire se un percorso psicologico o una consulenza di coppia può fare al caso tuo, sarà un piacere parlarne." data-de="Wenn Sie klären möchten, ob psychologische Begleitung oder Paarberatung für Sie passen könnte, können wir gerne darüber sprechen." data-en="If you would like to explore whether psychological support or couples counselling might be right for you, we can talk it through.">Se vuoi capire se un percorso psicologico o una consulenza di coppia può fare al caso tuo, sarà un piacere parlarne.</p></div>
+        <a class="button" href="contact.html"><span data-it="Contatti" data-de="Kontakt" data-en="Contact">Contatti</span><span class="arrow" aria-hidden="true"></span></a>
       </div>
+    </section>
+
+    <!-- Review content is intentionally empty until client testimonials are available. -->
+    <section class="container reviews-section" id="reviews" aria-labelledby="reviews-title">
+      <div class="reviews-heading">
+        <p class="eyebrow"><span data-it="Testimonianze" data-de="Rückmeldungen" data-en="Client reviews">Testimonianze</span></p>
+        <h2 id="reviews-title" data-it="Esperienze condivise, quando disponibili." data-de="Geteilte Erfahrungen, sobald verfügbar." data-en="Shared experiences, when available.">Esperienze condivise, quando disponibili.</h2>
+        <p data-it="Questa sezione è pronta ad accogliere future testimonianze, qualora disponibili." data-de="Dieser Bereich ist für künftige Rückmeldungen vorgesehen, sofern welche verfügbar sind." data-en="This section is ready for future client testimonials, should they become available.">Questa sezione è pronta ad accogliere future testimonianze, qualora disponibili.</p>
+      </div>
+      <div class="reviews-placeholder"><p data-it="Le testimonianze saranno aggiunte qui quando disponibili." data-de="Rückmeldungen werden hier ergänzt, sobald sie verfügbar sind." data-en="Testimonials will be added here when available.">Le testimonianze saranno aggiunte qui quando disponibili.</p></div>
     </section>
   </main>
 
   <!-- The footer is intentionally simple and shared across pages. -->
-  <footer class="site-footer"><div class="container footer-inner"><p>© <span class="year"></span> Dr. Jana Vikoler</p><p data-it="Psicologia · Bolzano, Alto Adige" data-de="Psychologie · Bozen, Südtirol" data-en="Psychology · Bolzano, South Tyrol">Psicologia · Bolzano, Alto Adige</p></div></footer>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span class="year"></span> Dr. Jana Vikoler · P.IVA NUMERO_PIVA · <a href="privacy.html" data-it="Privacy & Cookie Policy" data-de="Datenschutz & Cookies" data-en="Privacy & Cookie Policy">Privacy & Cookie Policy</a></p>
+    </div>
+  </footer>
 </body>
 </html>
