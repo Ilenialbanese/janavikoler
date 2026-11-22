@@ -87,7 +87,7 @@ h3 { font-size: 24px; line-height: 1.18; }
 .hero { min-height: 620px; display: grid; grid-template-columns: 1.03fr .97fr; align-items: center; gap: 65px; padding-block: 56px 85px; }
 .intro-section { margin-block: 50px 40px; }
 .intro-band { min-height: 120px; display: grid; grid-template-columns: 1fr; align-items: center; gap: 32px; padding: 25px 36px; border: 1px solid rgba(150, 115, 58, .22); border-left: 4px solid var(--gold); border-radius: 14px; background: linear-gradient(105deg, #f7f3ea 0%, #fbf9f4 55%, #ffffff 100%); box-shadow: 0 10px 30px rgba(150, 115, 58, .07); }
-.intro-band blockquote { max-width: 780px; margin: 0; color: var(--ink); font: clamp(20px, 2.2vw, 24px)/1.5 var(--serif); }
+.intro-band blockquote { max-width: 860px; margin: 0; color: var(--ink); font: clamp(20px, 2.2vw, 24px)/1.5 var(--serif); }
 .intro-band blockquote::before { content: "“"; color: var(--gold); font-size: 1.8em; font-weight: 700; line-height: 0; vertical-align: -.2em; }
 .intro-band blockquote::after { content: "”"; color: var(--gold); font-size: 1.8em; font-weight: 700; line-height: 0; vertical-align: -.2em; }
 .quote-ending { white-space: nowrap; }
